@@ -27,3 +27,5 @@ Commit Changes
 React tidak serta merta me render seluruh code ketika terjadi trigger
 
 Snapshot melakukan freeze ketika setelah me render
+
+Immer Library digunakan untuk membuat immutable object dari object
