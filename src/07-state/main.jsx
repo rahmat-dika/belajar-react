@@ -1,13 +1,10 @@
 import { createRoot } from "react-dom/client";
 import { StrictMode } from "react";
-import TodoList from "./TodoList.jsx";
+import StateCounter from "./StateCounter";
 
 createRoot(document.getElementById("root"))
   .render(
     <StrictMode>
-        <TodoList/>
+      <StateCounter/>
     </StrictMode>
   )
-
-
-  // ini untuk Materi COMPONENT

@@ -16,3 +16,14 @@ Saat development untuk menyelesaikan masalah bisa menggunakan component StrictMo
 
 Operator ternary : operator yang menggunakan tanda tanya ketika menggunakannya titik dua sebagai pembatas 
   {isCompleted ? <del>{text}</del> : text}
+
+
+Render 
+Proses render terdiri dari 3 tahapan yaitu
+Trigger Render 
+Render Component
+Commit Changes 
+
+React tidak serta merta me render seluruh code ketika terjadi trigger
+
+Snapshot melakukan freeze ketika setelah me render
