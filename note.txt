@@ -1,0 +1,18 @@
+Pada react mengutamakan component.
+Component merupakan kumpulan kode yang bisa digunakan secara independen.
+Anggap seperti membuat function.
+Mirip seperti DOM yang didalam component bisa membuat component lagi.
+JSX kombinasi kode javascript.
+
+Install react v19 menggunakan vite
+  npm create vite@latest belajar-react -- --template react
+  npm Install
+  npm run dev
+
+Buat file Component.
+Kemudian instance dari react root.
+Menampilkan component di react root bisa menggunakan method render(component).
+Saat development untuk menyelesaikan masalah bisa menggunakan component StrictMode.
+
+Operator ternary : operator yang menggunakan tanda tanya ketika menggunakannya titik dua sebagai pembatas 
+  {isCompleted ? <del>{text}</del> : text}
